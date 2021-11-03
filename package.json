@@ -1,0 +1,26 @@
+{
+  "name": "leaflet_typescript",
+  "version": "1.0.0",
+  "description": "Proyectos con la libreria Leaflet y Typescript paso a paso",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel./index.html --open",
+    "build": "npx parcel build index.html --public-url '.'"
+  },
+  "keywords": [
+    "leaflet",
+    "typescript",
+    "maps",
+    "mapas",
+    "geojson",
+    "polyline",
+    "marker",
+    "points"
+  ],
+  "author": "Josue Arturo Rojas Paredes <paredesjosue77@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "typescript": "^4.4.4"
+  }
+}
